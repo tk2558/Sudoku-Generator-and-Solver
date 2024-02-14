@@ -16,29 +16,6 @@ Sudoku Random Board Generator Process
 -> If not valid, backtrack and try other possibilities.
 
 3. Once matrix is fully filled, randomly remove 40 to 50 digits
-
-*/
-
-/*
-#include <iostream>
-#include <string>
-#include <vector>
-#include <random>
-using namespace std;
-
-/*
-Sudoku Random Board Generator Process
-
-1. Start with an empty 9x9 Sudoku grid
-
-2. Fill Sudoku grid recursively by attempting place numbers (1 to 9) in empty cells one by one.
-
--> Checks if it's valid to place a number in a particular cell using the isValid() function.
--> If valid, places the number in the cell and proceeds to solve the remaining grid recursively.
--> If not valid, backtrack and try other possibilities.
-
-3. Once matrix is fully filled, randomly remove 40 to 50 digits
-
 */
 
 int getRandomDigit(int min, int max) { // function to get a random number
