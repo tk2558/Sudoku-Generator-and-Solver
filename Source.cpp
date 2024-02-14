@@ -199,6 +199,14 @@ int main() {
     cout << "\nSolving Random Sudoku Board: " << endl;
     solveSudoku(test2);
     display(test2);
+        
+    cout << "\nTesting Random Sudoku Board 2: " << endl;
+    vector<vector<char>> test3 = generateRandomSudoku();
+    display(test3);
+
+    cout << "\nSolving Random Sudoku Board 2: " << endl;
+    solveSudoku(test3);
+    display(test3);
     
     return 0;
 }
