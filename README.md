@@ -1,6 +1,6 @@
 # Sudoku-Generator-and-Solver
 
-## Based on LeetCode Problem 37: Sodoku Solver:
+## Based on LeetCode Problem 37: Sodoku Solver
 
 Write a program to solve a Sudoku puzzle by filling the empty cells. <br />
 <br />
